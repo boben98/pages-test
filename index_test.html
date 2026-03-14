@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saját portfólió landing page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white text-gray-900">
+    <header class="border-b">
+      <nav
+        class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4 md:flex-row md:justify-between md:items-center"
+      >
+        <a href="#hero" class="text-2xl font-bold">Kiss Péter</a>
+
+        <ul class="flex flex-col gap-2 md:flex-row md:gap-6">
+          <li><a href="#about" class="hover:text-blue-600">Rólam</a></li>
+          <li><a href="#skills" class="hover:text-blue-600">Skillek</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Kapcsolat</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="max-w-6xl mx-auto px-4 py-16 md:py-24">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">
+          Junior webfejlesztő vagyok, modern weboldalakat építek
+        </h1>
+        <p class="text-lg text-gray-700 mb-6">
+          HTML, CSS, Tailwind és JavaScript alapokkal készítek letisztult, reszponzív felületeket.
+        </p>
+        <a
+          href="#skills"
+          class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+        >
+          Nézd meg a munkámat
+        </a>
+      </section>
+
+      <section id="about" class="bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 py-16">
+          <h2 class="text-3xl font-semibold mb-6">Rólam</h2>
+          <p class="mb-4">
+            Pályakezdő fejlesztőként az érdekel, hogyan lehet átlátható és jól használható
+            felületeket készíteni.
+          </p>
+          <p>
+            A célom, hogy a tanult alapokból önállóan is össze tudjak rakni egy stabil, publikálható
+            projektet.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-3xl font-semibold mb-8">Skillek</h2>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article class="border rounded-xl p-6 shadow-sm">
+            <h3 class="text-xl font-semibold mb-3">HTML</h3>
+            <p>Semantic struktúra, átlátható tartalom és logikus oldalváz.</p>
+          </article>
+
+          <article class="border rounded-xl p-6 shadow-sm">
+            <h3 class="text-xl font-semibold mb-3">CSS / Tailwind</h3>
+            <p>Egyszerű, gyors és reszponzív felületek utility classokkal.</p>
+          </article>
+
+          <article class="border rounded-xl p-6 shadow-sm">
+            <h3 class="text-xl font-semibold mb-3">Reszponzív design</h3>
+            <p>Mobilról induló gondolkodás, rugalmas layout és tiszta spacing.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-gray-900 text-white">
+      <div class="max-w-6xl mx-auto px-4 py-10">
+        <h2 class="text-2xl font-semibold mb-4">Kapcsolat</h2>
+        <p class="mb-2">Email: peter@example.com</p>
+        <p class="mb-2">GitHub: github.com/peter</p>
+        <p class="text-sm text-gray-300 mt-6">© 2026 Kiss Péter</p>
+      </div>
+    </footer>
+  </body>
+</html>
